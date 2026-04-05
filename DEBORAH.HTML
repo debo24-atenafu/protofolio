@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Deborah atenafu/protofolio</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">Deborah</a>
+      <i class="menu-btn">☰</i>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#About ME" class="active">About me</a>
+      <a href="#projects" class="active">projects</a>
+      <a href="#achievements" class="active">Achievements</a>
+      <a href="#contact" class="active">Contact</a>
+    </nav>
+   </header> 
+    <section id="home">
+      <div class="home-img">
+        <img src=https://i.pinimg.com/474x/10/72/2f/10722f60716d5112d8f95f22774764aa.jpg?nii=t>
+    </div>
+    <div class="home-content">
+      <h1>Hi,It's <span>Deborah</span></h1>
+      <h3 class="typing-text">I'm a <span></span></h3>
+      <p>Etege Menen Girls' Boarding Secondary School Student and Frontend Developer</p>
+      <br><div class="social-icons">
+        <a href="#"> <i class="fa-brands fa-github"></i></a>
+        <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="#"> <i class="fa-brands fa-telegram"></i></a>
+
+
+      </div>
+    </div>
+    </section>
+    <section id="About ME">
+      <h2>About me</h2>
+      <p style="text-align: center; max-width: 800px; margin: auto">
+        My name is Deborah Atenafu, and I am a 17-year-old Grade 11 student with
+        a strong passion for creativity and technology. I am currently learning
+        web design and development, where I have developed skills in HTML and
+        CSS, and I am continuing to improve my knowledge of JavaScript. I enjoy
+        building simple, structured, and visually appealing websites, and I am
+        motivated to grow into a skilled web developer in the future. Beyond
+        coding, I have a deep interest in artistic and creative activities. I
+        enjoy drawing, making craft items, crochet, and string art. These
+        activities help me express my creativity and improve my attention to
+        detail, which also supports my work in web design. In addition, I have
+        started learning French at a basic level, which has helped me develop an
+        interest in languages and communication. I believe that learning
+        different skills, both technical and creative, makes me more versatile
+        and prepared for future opportunities. I am a dedicated and curious
+        learner who is always willing to explore new ideas and improve my
+        abilities. My goal is to continue developing my skills in web
+        development while combining them with my creativity to create meaningful
+        and attractive digital experiences.
+      </p>
+    </section>
+     <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+         
+        <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/01/html-projects-800x431.jpg" alt="Project 1">
+       
+        <button >html</button>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="https://logos-world.net/wp-content/uploads/2024/12/CSS-Cascading-Style-Sheets-Logo-New.png" alt="Project 2">
+      
+        <button >CSS</button>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="https://s3-ap-southeast-1.amazonaws.com/storage.virtualspirit.me/post/cover/151/10.jpg" alt="Project 3">
+       
+        <button >java  script</button>
+      </div>
+
+    </div>
+  </section>
+   <section id="achievements">
+    <h2>My Achievements</h2>
+    <div class="achievements-container">
+
+      <!-- Project 1 -->
+      <div class="achievements-card">
+        <img src="https://www.webskittersacademy.in/wp-content/uploads/2024/09/Why-Enroll-in-an-Android-Development-Course.jpg" alt="Project 1">
+       <a href="bob.pdf" target="_blank">
+    <button>View</button>
+       </a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="achievements-card">
+        <img src="https://api.hadielearning.com/courseImages/1712136300443-fundamental-of-data-analytics-cover-page%20(1).jpg" alt="Project 2">
+       <a href="coc.pdf" target="_blank">
+    <button>View</button>
+       </a>
+        
+      </div>
+
+      <!-- Project 3 -->
+      <div class="achievements-card">
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2022/07/fundamentals-of-programming.jpg" alt="achievements 3">
+        <a href="dod.pdf" target="_blank">
+    <button>View</button>
+       </a>
+      </div>
+
+    </div>
+  </section>
+  <section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
+
+    <!-- Contact form -->
+    <form class="contact-form" action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button >Send Message</button>
+    </form>
+
+    <!-- Contact info -->
+    <div class="contact-info">
+      <p>
+        📍 Addis Ababa, Ethiopia <br />
+        📞 +251-903-53-15-13<br />
+        📧 info@Deborah.com
+      </p>
+    </section>
+
+    <footer>
+      <p>© Deborah Atenafu | 2018</p>
+    </footer>
+    </div>
+
+  </div>
+</section>
+<script id="x1">
+const menuBtn = document.querySelector(".menu-btn");
+const nav = document.querySelector("nav");
+
+menuBtn.onclick = () => {
+  nav.classList.toggle("active");
+};
+</script>
+<script id="x2">
+const navLinks = document.querySelectorAll("nav a");
+
+navLinks.forEach(link => {
+  link.onclick = () => {
+    nav.classList.remove("active");
+  };
+});
+</script>
+
+
+  </body>
+  </html>
+    
+
+    
