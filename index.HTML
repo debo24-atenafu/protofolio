@@ -6,24 +6,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Deborah atenafu/protofolio</title>
+    
   </head>
 
   <body>
+    <!-- Header and Navigation -->
     <header>
       <a href="#" class="logo">Deborah</a>
-      <i class="menu-btn">☰</i>
-    <nav>
+    <i class="fa-solid fa-bars menu-btn"></i>
+    <!-- Navigation Menu -->
+     <nav>
       <a href="#home" class="active">Home</a>
-      <a href="#about" class="active">About me</a>
-      <a href="#projects" class="active">projects</a>
-      <a href="#achievements" class="active">Achievements</a>
-      <a href="#contact" class="active">Contact</a>
+      <a href="#about">About me</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
     </nav>
    </header> 
+   <main>
+    <!-- Home Section -->
     <section id="home">
       <div class="home-img">
-        <img src=https://i.pinimg.com/474x/10/72/2f/10722f60716d5112d8f95f22774764aa.jpg?nii=t>
+        <img src="https://i.pinimg.com/474x/10/72/2f/10722f60716d5112d8f95f22774764aa.jpg?nii=t" alt="Profile Image">
     </div>
+    <!-- Home Content (Introduction) -->
     <div class="home-content">
       <h1>Hi,It's <span>Deborah</span></h1>
       <h3 class="typing-text">I'm a <span></span></h3>
@@ -38,9 +44,10 @@
       </div>
     </div>
     </section>
+    <!-- About Section -->
     <section id="about">
       <h2>About me</h2>
-      <p style="text-align: center; max-width: 800px; margin: auto">
+      <p>
         My name is Deborah Atenafu, and I am a 17-year-old Grade 11 student with
         a strong passion for creativity and technology. I am currently learning
         web design and development, where I have developed skills in HTML and
@@ -68,23 +75,23 @@
       <!-- Project 1 -->
       <div class="project-card">
          
-        <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/01/html-projects-800x431.jpg" alt="Project 1">
+        <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/01/html-projects-800x431.jpg" alt="HTML project preview">
        
         <button >html</button>
       </div>
 
       <!-- Project 2 -->
       <div class="project-card">
-        <img src="https://logos-world.net/wp-content/uploads/2024/12/CSS-Cascading-Style-Sheets-Logo-New.png" alt="Project 2">
+        <img src="https://logos-world.net/wp-content/uploads/2024/12/CSS-Cascading-Style-Sheets-Logo-New.png" alt="CSS project preview">
       
         <button >CSS</button>
       </div>
 
       <!-- Project 3 -->
       <div class="project-card">
-        <img src="https://s3-ap-southeast-1.amazonaws.com/storage.virtualspirit.me/post/cover/151/10.jpg" alt="Project 3">
+        <img src="https://s3-ap-southeast-1.amazonaws.com/storage.virtualspirit.me/post/cover/151/10.jpg" alt="Java project preview">
        
-        <button >java  script</button>
+        <button >Java  script</button>
       </div>
 
     </div>
@@ -93,7 +100,7 @@
     <h2>My Achievements</h2>
     <div class="achievements-container">
 
-      <!-- Project 1 -->
+      <!-- achievement 1 -->
       <div class="achievements-card">
         <img src="https://www.webskittersacademy.in/wp-content/uploads/2024/09/Why-Enroll-in-an-Android-Development-Course.jpg" alt="Project 1">
        <a href="bob.pdf" target="_blank">
@@ -101,7 +108,7 @@
        </a>
       </div>
 
-      <!-- Project 2 -->
+      <!-- achievement 2 -->
       <div class="achievements-card">
         <img src="https://api.hadielearning.com/courseImages/1712136300443-fundamental-of-data-analytics-cover-page%20(1).jpg" alt="Project 2">
        <a href="coc.pdf" target="_blank">
@@ -110,7 +117,7 @@
         
       </div>
 
-      <!-- Project 3 -->
+      <!-- achievement 3 -->
       <div class="achievements-card">
         <img src="https://cdn.educba.com/academy/wp-content/uploads/2022/07/fundamentals-of-programming.jpg" alt="achievements 3">
         <a href="dod.pdf" target="_blank">
@@ -129,7 +136,7 @@
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
       <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
-      <button >Send Message</button>
+      <button type="submit">Send Message</button>
     </form>
 
     <!-- Contact info -->
@@ -139,15 +146,16 @@
         📞 +251-903-53-15-13<br />
         📧 info@Deborah.com
       </p>
+    </div>
+    </div>
     </section>
-
+</main>
     <footer>
       <p>© Deborah Atenafu | 2018</p>
     </footer>
-    </div>
+   
 
-  </div>
-</section>
+
 <script src="script.js"></script>
 
   </body>
